@@ -14,6 +14,9 @@ from tools.tools import get_profile_url_tavily
 load_dotenv()
 
 
+
+
+
 def lookup(name: str) -> str:
     llm = ChatOpenAI(
         temperature=0,
